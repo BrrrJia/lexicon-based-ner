@@ -5,17 +5,21 @@ Implement a token- and lexicon-based NER. Its comparison takes place at word/tok
 2. traverse the tokenized text, for each token check if it is (name)candidate and check if other name components are in a predefined window around the found token.
     
 
-## Error analysis:
+## Error analysis
 
 #TODO
 
-## Data:
+## Data
 
-- first.txt and last.txt, lists of first and last names
+- first.txt and last.txt: lists of first and last names
     
-- test.sentences, selection of sentences from a news corpus
+- sentences.txt: selection of sentences from a news corpus
     
-- test.names, names selected by experts for each sentence. This is the gold standard, i.e. the correct result (by definition).
+- names.csv, names selected by experts for each sentence. This is the gold standard, i.e. the correct result (by definition)
+  
+- location.txt: location entities lexicon used to avoid ambiguous case
+  
     
 
-## Packages used: NLTK, regex, csv, string
+## Packages used
+NLTK, regex, csv, string
