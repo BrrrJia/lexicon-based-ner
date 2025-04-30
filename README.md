@@ -11,11 +11,14 @@ Implement a token- and lexicon-based NER. Its comparison takes place at word/tok
 
 ## Data
 
-- first.txt and last.txt, lists of first and last names
+- first.txt and last.txt: lists of first and last names
     
-- test.sentences, selection of sentences from a news corpus
+- sentences.txt: selection of sentences from a news corpus
     
-- test.names, names selected by experts for each sentence. This is the gold standard, i.e. the correct result (by definition).
+- names.csv, names selected by experts for each sentence. This is the gold standard, i.e. the correct result (by definition)
+  
+- location.txt: location entities lexicon used to avoid ambiguous case
+  
     
 
 ## Packages used
